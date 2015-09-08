@@ -1,0 +1,80 @@
+body {
+		margin: 0;
+		padding: 0;
+		background-color: lightgray;
+		text-align: center;
+	}
+#calendar-container {
+		width: 900px;
+		height: 250px;
+		margin: 10px auto; 
+		background-color: white;
+		padding: 6px;
+		}
+
+#calendar-month h1 {
+		margin: 0 auto;
+		letter-spacing: 2px;
+		padding: 10px;
+		border-bottom: 1px solid lightgray;
+		background-color: tomato;
+		color: white;
+		}
+#calendar-dates {
+		padding-top: 10px;
+		}
+#weekDays {
+		position: relative;
+		right: 16px;
+		}
+#weekDays li {
+		position: relative;
+		right: 12px;
+		padding: 0 40px;
+		}
+#weekDays li, 
+#weekNums li {
+		font-size: 26px;
+		display: inline-block;
+		list-style: none;
+		padding-right: 16px;
+		}
+#weekNums {
+		position: relative;
+		right: 10px;
+		margin: 5px;
+		}
+#weekNums li {
+		width: 60px; 
+		padding: 5px 12px;
+		margin: 0 3px;
+		border: 1px solid lightgray;
+		font-size: 18px;
+		}
+.arrow-right, .arrow-left {
+		width: 0; 
+		height: 0;
+		border-top: 30px solid transparent;
+		border-bottom: 30px solid transparent;
+		display: inline-block;
+		margin: 6px;
+		}
+.arrow-left {
+		border-right:30px solid tomato; 
+		float: left;
+		position: relative;	
+		left: 10px;
+		top: 48px;
+		}
+.arrow-right {
+		border-left: 30px solid tomato;
+		position: relative;
+		left: 420px;
+		bottom: 68px;
+		}
+#clear {
+		clear: both;
+		}
+.unavailable {
+		background-color: tomato;
+		}
